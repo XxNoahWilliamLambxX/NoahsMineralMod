@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "noahsmineralmod:pink_opal_ore"
+  },
+  "result": "noahsmineralmod:pink_opal_ingot",
+  "experience": 0.0,
+  "cookingtime": 200
+}

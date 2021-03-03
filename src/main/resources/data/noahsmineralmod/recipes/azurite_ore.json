@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "noahsmineralmod:azurite_ore"
+  },
+  "result": "noahsmineralmod:azurite_ingot",
+  "experience": 0.0,
+  "cookingtime": 200
+}

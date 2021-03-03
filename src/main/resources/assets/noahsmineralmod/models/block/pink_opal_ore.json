@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "noahsmineralmod:blocks/pink_opal_ore"
+  }
+}
