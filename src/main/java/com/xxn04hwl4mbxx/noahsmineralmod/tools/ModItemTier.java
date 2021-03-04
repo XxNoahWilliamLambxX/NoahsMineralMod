@@ -9,7 +9,10 @@ import java.util.function.Supplier;
 public enum ModItemTier implements IItemTier {
 
     RUBY(3, 2000, 10.0f, 1.0f, 15, () -> {
-        return Ingredient.fromItems(RegistryHandler.RUBY_SWORD.get());
+        return Ingredient.fromItems(RegistryHandler.RUBY_INGOT.get());
+    }),
+    AZURITE(3, 2000, 10.0f, 1.0f, 15, () -> {
+        return Ingredient.fromItems(RegistryHandler.AZURITE_INGOT.get());
     });
 
     private final int harvestLevel;

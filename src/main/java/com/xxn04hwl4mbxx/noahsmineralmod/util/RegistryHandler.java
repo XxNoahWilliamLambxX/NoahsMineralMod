@@ -5,8 +5,7 @@ import com.xxn04hwl4mbxx.noahsmineralmod.blocks.*;
 import com.xxn04hwl4mbxx.noahsmineralmod.items.ItemBase;
 import com.xxn04hwl4mbxx.noahsmineralmod.tools.ModItemTier;
 import net.minecraft.block.Block;
-import net.minecraft.item.Item;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -33,6 +32,19 @@ public class RegistryHandler {
     // Tools
     public static final RegistryObject<SwordItem> RUBY_SWORD = ITEMS.register("ruby_sword", () ->
              new SwordItem(ModItemTier.RUBY, 9, -2.4f, new Item.Properties().group(Main.TAB)));
+    public static final RegistryObject<PickaxeItem> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe", () ->
+            new PickaxeItem(ModItemTier.RUBY, 1, -2.4f, new Item.Properties().group(Main.TAB) ));
+    public static final RegistryObject<AxeItem> RUBY_AXE = ITEMS.register("ruby_axe", () ->
+            new AxeItem(ModItemTier.RUBY, 3, -2.4f, new Item.Properties().group(Main.TAB) ));
+    public static final RegistryObject<ShovelItem> RUBY_SHOVEL = ITEMS.register("ruby_shovel", () ->
+            new ShovelItem(ModItemTier.RUBY, 0, -2.4f, new Item.Properties().group(Main.TAB) ));
+    public static final RegistryObject<HoeItem> RUBY_HOE = ITEMS.register("ruby_hoe", () ->
+            new HoeItem(ModItemTier.RUBY, -2.4f, new Item.Properties().group(Main.TAB) ));
+
+    public static final RegistryObject<SwordItem> AZURITE_SWORD = ITEMS.register("azurite_sword", () ->
+            new SwordItem(ModItemTier.AZURITE, 9, -2.4f, new Item.Properties().group(Main.TAB)));
+    public static final RegistryObject<PickaxeItem> AZURITE_PICKAXE = ITEMS.register("azurite_pickaxe", () ->
+            new PickaxeItem(ModItemTier.AZURITE, 1, -2.4f, new Item.Properties().group(Main.TAB) ));
 
     // Blocks
     public static final RegistryObject<Block> AZURITE_ORE = BLOCKS.register("azurite_ore", AzuriteOre::new);
@@ -41,8 +53,6 @@ public class RegistryHandler {
     public static final RegistryObject<Block> DYE_ORE = BLOCKS.register("dye_ore", DyeOre::new);
     public static final RegistryObject<Block> NETHER_DIAMOND_ORE = BLOCKS.register("nether_diamond_ore", NetherDiamondOre::new);
     public static final RegistryObject<Block> NETHER_LAPIS_ORE = BLOCKS.register("nether_lapis_ore", NetherLapisOre::new);
-
-
 
     // Block Items
     public static final RegistryObject<Item> AZURITE_ORE_ITEM = ITEMS.register("azurite_ore", () -> new BlockItemBase(AZURITE_ORE.get()));
