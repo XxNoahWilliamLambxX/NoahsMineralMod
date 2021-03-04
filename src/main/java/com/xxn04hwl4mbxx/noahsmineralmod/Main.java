@@ -2,6 +2,8 @@ package com.xxn04hwl4mbxx.noahsmineralmod;
 
 import com.xxn04hwl4mbxx.noahsmineralmod.util.RegistryHandler;
 import net.minecraft.block.Blocks;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -33,4 +35,11 @@ public class Main
     private void doClientStuff(final FMLClientSetupEvent event)
     {
     }
+
+    public static final ItemGroup TAB = new ItemGroup("minerals") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(RegistryHandler.DIAMOND_SCRAP.get());
+        }
+    };
 }

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "noahsmineralmod:nether_diamond_ore"
+  },
+  "result": "noahsmineralmod:diamond_scrap",
+  "experience": 0.0,
+  "cookingtime": 200
+}

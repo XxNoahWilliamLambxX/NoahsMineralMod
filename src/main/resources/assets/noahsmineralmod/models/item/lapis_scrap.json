@@ -2,6 +2,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "noahsmineralmod:items/copper_ingot"
+    "layer0": "noahsmineralmod:items/lapis_scrap"
   }
 }

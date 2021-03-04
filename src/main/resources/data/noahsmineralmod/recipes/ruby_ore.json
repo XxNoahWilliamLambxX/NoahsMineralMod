@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "noahsmineralmod:ruby_ore"
+  },
+  "result": "noahsmineralmod:ruby_ingot",
+  "experience": 0.0,
+  "cookingtime": 200
+}

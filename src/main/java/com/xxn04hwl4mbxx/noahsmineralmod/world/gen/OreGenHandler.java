@@ -31,9 +31,9 @@ public class OreGenHandler {
             //World Generation
             } else {
                 genOre(biome, 20, 8, 5, 50, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.AZURITE_ORE.get().getDefaultState(), 4);
-                genOre(biome, 20, 8, 5, 50, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.COPPER_ORE.get().getDefaultState(), 4);
                 genOre(biome, 20, 8, 5, 50, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.PINK_OPAL_ORE.get().getDefaultState(), 4);
                 genOre(biome, 20, 8, 5, 50, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.RUBY_ORE.get().getDefaultState(), 4);
+                genOre(biome, 20, 8, 5, 50, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.DYE_ORE.get().getDefaultState(), 4);
 
             }
         }

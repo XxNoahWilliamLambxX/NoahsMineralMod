@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "noahsmineralmod:nether_lapis_ore"
+  },
+  "result": "noahsmineralmod:lapis_scrap",
+  "experience": 0.0,
+  "cookingtime": 200
+}

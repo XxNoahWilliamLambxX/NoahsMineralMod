@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "## ",
+    "## ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "noahsmineralmod:lapis_scrap"
+    }
+  },
+  "result": {
+    "item": "minecraft:lapis_lazuli",
+    "count": 1
+  }
+}

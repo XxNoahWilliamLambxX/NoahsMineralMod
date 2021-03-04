@@ -2,10 +2,13 @@
   "item.noahsmineralmod.ruby_ingot": "Ruby Ingot",
   "item.noahsmineralmod.pink_opal_ingot": "Pink Opal Ingot",
   "item.noahsmineralmod.azurite_ingot": "Azurite Ingot",
-  "item.noahsmineralmod.copper_ingot": "Copper Ingot",
-  "block.noahsmineralmod.copper_ore": "Copper Ore",
+  "item.noahsmineralmod.diamond_scrap": "Diamond Scrap",
+  "item.noahsmineralmod.lapis_scrap": "Lapis Scrap",
   "block.noahsmineralmod.pink_opal_ore": "Pink Opal Ore",
   "block.noahsmineralmod.azurite_ore": "Azurite Ore",
   "block.noahsmineralmod.dye_ore": "Dye Ore",
-  "block.noahsmineralmod.Ruby_ore": "Ruby Ore"
+  "block.noahsmineralmod.nether_lapis_ore": "Nether Lapis Ore",
+  "block.noahsmineralmod.nether_diamond_ore": "Nether Diamond Ore",
+  "block.noahsmineralmod.ruby_ore": "Ruby Ore",
+  "itemGroup.minerals": "Noah's Mineral Mod"
 }
