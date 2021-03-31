@@ -7,7 +7,7 @@ version="0.0.1" #mandatory
 displayName="Noah's Mineral Mod" #mandatory
 displayURL="http://example.com/" #optional
 logoFile="logo.png" #optional
-authors="AcidApple2006 #optional
+authors="AcidApple2006" #optional
 description='''
 Alpha 0.0.1
 '''
