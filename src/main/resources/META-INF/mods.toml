@@ -8,7 +8,7 @@ displayURL="https://bit.ly/39u9nCw" #optional
 logoFile="logo.png" #optional
 authors="AcidApple2006" #optional
 description='''
-Alpha 0.0.1
+Public Beta 1
 '''
 [[dependencies.noahsmineralmod]] #optional
     modId="forge" #mandatory

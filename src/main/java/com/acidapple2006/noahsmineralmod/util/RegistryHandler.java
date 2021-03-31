@@ -41,7 +41,7 @@ public class RegistryHandler {
             new ShovelItem(ModItemTier.RUBY, 0, -2.4f, new Item.Properties().group(Main.TAB) ));
     public static final RegistryObject<HoeItem> RUBY_HOE = ITEMS.register("ruby_hoe", () ->
             new HoeItem(ModItemTier.RUBY, -2.4f, new Item.Properties().group(Main.TAB) ));
-    // Azureite Set
+    // Azurite Set
     public static final RegistryObject<SwordItem> AZURITE_SWORD = ITEMS.register("azurite_sword", () ->
             new SwordItem(ModItemTier.AZURITE, 0, -2.4f, new Item.Properties().group(Main.TAB)));
     public static final RegistryObject<PickaxeItem> AZURITE_PICKAXE = ITEMS.register("azurite_pickaxe", () ->
