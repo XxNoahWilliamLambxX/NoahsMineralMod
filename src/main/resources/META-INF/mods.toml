@@ -2,7 +2,7 @@ modLoader="javafml" #mandatory
 loaderVersion="[31,)" #mandatory
 [[mods]] #mandatory
 modId="noahsmineralmod" #mandatory
-version="0.0.1" #mandatory
+version="1.15.5-0.1.0" #mandatory
 displayName="Noah's Mineral Mod" #mandatory
 displayURL="https://bit.ly/39u9nCw" #optional
 logoFile="logo.png" #optional
