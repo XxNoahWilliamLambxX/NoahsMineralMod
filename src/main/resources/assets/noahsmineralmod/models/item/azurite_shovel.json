@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "noahsmineralmod:items/azurite_shovel"
+  }
+}

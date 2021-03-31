@@ -1,10 +1,9 @@
-package com.xxn04hwl4mbxx.noahsmineralmod.blocks;
+package com.acidapple2006.noahsmineralmod.blocks;
 
-import com.xxn04hwl4mbxx.noahsmineralmod.Main;
+import com.acidapple2006.noahsmineralmod.Main;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 
 public class BlockItemBase extends BlockItem {
 

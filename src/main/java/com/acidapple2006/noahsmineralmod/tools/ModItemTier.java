@@ -1,6 +1,6 @@
-package com.xxn04hwl4mbxx.noahsmineralmod.tools;
+package com.acidapple2006.noahsmineralmod.tools;
 
-import com.xxn04hwl4mbxx.noahsmineralmod.util.RegistryHandler;
+import com.acidapple2006.noahsmineralmod.util.RegistryHandler;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
 
@@ -12,6 +12,9 @@ public enum ModItemTier implements IItemTier {
         return Ingredient.fromItems(RegistryHandler.RUBY_INGOT.get());
     }),
     AZURITE(3, 2000, 10.0f, 1.0f, 15, () -> {
+        return Ingredient.fromItems(RegistryHandler.AZURITE_INGOT.get());
+    }),
+    PINKOPAL(3, 2000, 10.0f, 1.0f, 15, () -> {
         return Ingredient.fromItems(RegistryHandler.AZURITE_INGOT.get());
     });
 

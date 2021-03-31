@@ -1,12 +1,12 @@
-package com.xxn04hwl4mbxx.noahsmineralmod.blocks;
+package com.acidapple2006.noahsmineralmod.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.common.ToolType;
 
-public class NetherIronOre extends Block {
-    public NetherIronOre() {
+public class NetherLapisOre extends Block {
+    public NetherLapisOre() {
         super(Block.Properties.create(Material.IRON)
                 .hardnessAndResistance(5.0f, 6.0f)
                 .sound(SoundType.METAL)

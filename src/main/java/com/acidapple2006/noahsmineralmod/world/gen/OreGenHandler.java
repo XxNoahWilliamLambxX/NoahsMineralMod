@@ -1,7 +1,7 @@
-package com.xxn04hwl4mbxx.noahsmineralmod.world.gen;
+package com.acidapple2006.noahsmineralmod.world.gen;
 
-import com.xxn04hwl4mbxx.noahsmineralmod.Main;
-import com.xxn04hwl4mbxx.noahsmineralmod.util.RegistryHandler;
+import com.acidapple2006.noahsmineralmod.Main;
+import com.acidapple2006.noahsmineralmod.util.RegistryHandler;
 import net.minecraft.block.BlockState;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.gen.GenerationStage;

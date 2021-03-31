@@ -1,4 +1,4 @@
-package com.xxn04hwl4mbxx.noahsmineralmod.blocks;
+package com.acidapple2006.noahsmineralmod.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;

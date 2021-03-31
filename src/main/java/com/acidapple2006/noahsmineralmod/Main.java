@@ -1,7 +1,6 @@
-package com.xxn04hwl4mbxx.noahsmineralmod;
+package com.acidapple2006.noahsmineralmod;
 
-import com.xxn04hwl4mbxx.noahsmineralmod.util.RegistryHandler;
-import net.minecraft.block.Blocks;
+import com.acidapple2006.noahsmineralmod.util.RegistryHandler;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;

@@ -1,6 +1,6 @@
-package com.xxn04hwl4mbxx.noahsmineralmod.items;
+package com.acidapple2006.noahsmineralmod.items;
 
-import com.xxn04hwl4mbxx.noahsmineralmod.Main;
+import com.acidapple2006.noahsmineralmod.Main;
 import net.minecraft.item.Item;
 
 public class ItemBase extends Item {

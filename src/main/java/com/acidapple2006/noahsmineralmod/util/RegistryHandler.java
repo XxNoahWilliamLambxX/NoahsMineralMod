@@ -1,9 +1,9 @@
-package com.xxn04hwl4mbxx.noahsmineralmod.util;
+package com.acidapple2006.noahsmineralmod.util;
 
-import com.xxn04hwl4mbxx.noahsmineralmod.Main;
-import com.xxn04hwl4mbxx.noahsmineralmod.blocks.*;
-import com.xxn04hwl4mbxx.noahsmineralmod.items.ItemBase;
-import com.xxn04hwl4mbxx.noahsmineralmod.tools.ModItemTier;
+import com.acidapple2006.noahsmineralmod.blocks.*;
+import com.acidapple2006.noahsmineralmod.items.ItemBase;
+import com.acidapple2006.noahsmineralmod.tools.ModItemTier;
+import com.acidapple2006.noahsmineralmod.Main;
 import net.minecraft.block.Block;
 import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
@@ -30,21 +30,40 @@ public class RegistryHandler {
     public static final RegistryObject<Item> LAPIS_SCRAP =  ITEMS.register("lapis_scrap", ItemBase::new);
 
     // Tools
+    // Ruby Set
     public static final RegistryObject<SwordItem> RUBY_SWORD = ITEMS.register("ruby_sword", () ->
-             new SwordItem(ModItemTier.RUBY, 9, -2.4f, new Item.Properties().group(Main.TAB)));
+             new SwordItem(ModItemTier.RUBY, 0, -2.4f, new Item.Properties().group(Main.TAB)));
     public static final RegistryObject<PickaxeItem> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe", () ->
-            new PickaxeItem(ModItemTier.RUBY, 1, -2.4f, new Item.Properties().group(Main.TAB) ));
+            new PickaxeItem(ModItemTier.RUBY, 0, -2.4f, new Item.Properties().group(Main.TAB) ));
     public static final RegistryObject<AxeItem> RUBY_AXE = ITEMS.register("ruby_axe", () ->
-            new AxeItem(ModItemTier.RUBY, 3, -2.4f, new Item.Properties().group(Main.TAB) ));
+            new AxeItem(ModItemTier.RUBY, 0, -2.4f, new Item.Properties().group(Main.TAB) ));
     public static final RegistryObject<ShovelItem> RUBY_SHOVEL = ITEMS.register("ruby_shovel", () ->
             new ShovelItem(ModItemTier.RUBY, 0, -2.4f, new Item.Properties().group(Main.TAB) ));
     public static final RegistryObject<HoeItem> RUBY_HOE = ITEMS.register("ruby_hoe", () ->
             new HoeItem(ModItemTier.RUBY, -2.4f, new Item.Properties().group(Main.TAB) ));
-
+    // Azureite Set
     public static final RegistryObject<SwordItem> AZURITE_SWORD = ITEMS.register("azurite_sword", () ->
-            new SwordItem(ModItemTier.AZURITE, 9, -2.4f, new Item.Properties().group(Main.TAB)));
+            new SwordItem(ModItemTier.AZURITE, 0, -2.4f, new Item.Properties().group(Main.TAB)));
     public static final RegistryObject<PickaxeItem> AZURITE_PICKAXE = ITEMS.register("azurite_pickaxe", () ->
-            new PickaxeItem(ModItemTier.AZURITE, 1, -2.4f, new Item.Properties().group(Main.TAB) ));
+            new PickaxeItem(ModItemTier.AZURITE, 0, -2.4f, new Item.Properties().group(Main.TAB) ));
+    public static final RegistryObject<HoeItem> AZURITE_HOE = ITEMS.register("azurite_hoe", () ->
+            new HoeItem(ModItemTier.AZURITE, -2.4f, new Item.Properties().group(Main.TAB) ));
+    public static final RegistryObject<ShovelItem> AZURITE_SHOVEL = ITEMS.register("azurite_shovel", () ->
+            new ShovelItem(ModItemTier.AZURITE, 0, -2.4f, new Item.Properties().group(Main.TAB) ));
+    public static final RegistryObject<AxeItem> AZURITE_AXE = ITEMS.register("azurite_axe", () ->
+            new AxeItem(ModItemTier.AZURITE, 0, -2.4f, new Item.Properties().group(Main.TAB) ));
+    // Pink Opal Set
+    public static final RegistryObject<SwordItem> PINK_OPAL_SWORD = ITEMS.register("pink_opal_sword", () ->
+            new SwordItem(ModItemTier.PINKOPAL, 0, -2.4f, new Item.Properties().group(Main.TAB)));
+    public static final RegistryObject<PickaxeItem> PINK_OPAL_PICKAXE = ITEMS.register("pink_opal_pickaxe", () ->
+            new PickaxeItem(ModItemTier.PINKOPAL, 0, -2.4f, new Item.Properties().group(Main.TAB) ));
+    // Pink Opal Set NEW
+    public static final RegistryObject<HoeItem> PINK_OPAL_HOE = ITEMS.register("pink_opal_hoe", () ->
+            new HoeItem(ModItemTier.PINKOPAL, -2.4f, new Item.Properties().group(Main.TAB) ));
+    public static final RegistryObject<ShovelItem> PINK_OPAL_SHOVEL = ITEMS.register("pink_opal_shovel", () ->
+            new ShovelItem(ModItemTier.PINKOPAL, 0, -2.4f, new Item.Properties().group(Main.TAB) ));
+    public static final RegistryObject<AxeItem> PINK_OPAL_AXE = ITEMS.register("pink_opal_axe", () ->
+            new AxeItem(ModItemTier.PINKOPAL, 0, -2.4f, new Item.Properties().group(Main.TAB) ));
 
     // Blocks
     public static final RegistryObject<Block> AZURITE_ORE = BLOCKS.register("azurite_ore", AzuriteOre::new);
