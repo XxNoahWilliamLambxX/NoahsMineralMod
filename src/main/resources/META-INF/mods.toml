@@ -1,11 +1,10 @@
 modLoader="javafml" #mandatory
-loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
-issueTrackerURL="http://my.issue.tracker/" #optional
+loaderVersion="[31,)" #mandatory
 [[mods]] #mandatory
 modId="noahsmineralmod" #mandatory
 version="0.0.1" #mandatory
 displayName="Noah's Mineral Mod" #mandatory
-displayURL="http://example.com/" #optional
+displayURL="https://bit.ly/39u9nCw" #optional
 logoFile="logo.png" #optional
 authors="AcidApple2006" #optional
 description='''
