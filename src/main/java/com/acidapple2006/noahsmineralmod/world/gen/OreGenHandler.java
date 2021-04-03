@@ -24,6 +24,8 @@ public class OreGenHandler {
 
             //Nether Generation
             if (biome.getCategory() == Biome.Category.NETHER) {
+                genOre(biome, 20,8,5 ,50, OreFeatureConfig.FillerBlockType.NETHERRACK, RegistryHandler.NETHER_DIAMOND_ORE.get().getDefaultState(), 4);
+                genOre(biome, 20,8,5 ,50, OreFeatureConfig.FillerBlockType.NETHERRACK, RegistryHandler.NETHER_LAPIS_ORE.get().getDefaultState(), 4);
 
             //End Generation
             } else if (biome.getCategory() == Biome.Category.THEEND) {
@@ -35,7 +37,7 @@ public class OreGenHandler {
                 genOre(biome, 20, 8, 5, 50, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.RUBY_ORE.get().getDefaultState(), 4);
                 genOre(biome, 20, 8, 5, 50, OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.DYE_ORE.get().getDefaultState(), 4);
 
-            }
+        }
         }
     }
 
